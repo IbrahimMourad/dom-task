@@ -1,0 +1,147 @@
+body {
+    font-family: Tahoma;
+    color: rgb(151, 47, 47);
+    letter-spacing: 2px;
+  }
+  
+  #page-title {
+    font-weight: normal;
+    padding: 5px 15px;
+    width: 80%;
+    text-align: center;
+    margin: 20px 8px;
+  }
+
+  #page {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 2px solid  rgb(228, 114, 48);
+  }
+  
+  .photo{  
+    height: 270px;
+    width: 180px;
+  }
+  
+  #cart-list,
+  #total
+   {
+    margin: 20px;
+  }
+  
+  
+  
+  #cart-list li {
+    padding: 20px;
+    border-left: 3px solid rgb(228, 114, 48);
+    border-top:3px solid rgb(228, 114, 48 );
+    border-right:3px solid rgb(228, 114, 48);
+    border-bottom: 3px solid rgb(228, 114, 48);
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #cart-list li:hover {
+    border-color: rgb(228, 114, 48);
+  }
+  
+  .delete {
+    background: #e6904e;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    width: 70px;
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+ .add{
+    background: #e6904e;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;   
+    width: 70px;
+    height: 40px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+  }
+  .remove{
+    background: #e6904e;
+    padding: 6px;
+    border-radius: 4px;
+    justify-content: center;
+    color: white;
+    width: 70px;
+    height: 40px;  
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+  }
+  .count{
+    padding: 4px;
+    border-radius: 3px;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  #total {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #total > div {
+    display: flex;
+  }
+  
+  #total input {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid rgb(228, 114, 48);
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+  }
+  
+  #total button {
+    border: 1px solid  rgb(228, 114, 48);
+    background:  rgb(228, 114, 48);
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+  }
+  
+  #total #deleteall{
+    width: 35px;
+  }
+  
+  #total label {
+    line-height: 45px;
+  }

@@ -1,0 +1,6 @@
+var sum=0 ;
+	arr.forEach((element) => {
+ sum+= element.budget;
+  
+});
+	returm sum;
